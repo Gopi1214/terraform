@@ -18,3 +18,8 @@ variable "zone_id" {
 variable "domain_name" {
     default = "gmdproducts.online"
 }
+
+variable "is_prod" {
+    type = bool
+    default = false
+}
